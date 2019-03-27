@@ -1,3 +1,15 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+npm-debug.log*
+
 # Logs
 logs
 *.log
@@ -9,4 +21,4 @@ node_modules/
 # generated files
 dist/
 src/browser/plugin.min.js
-www/www.min.js
+# www/www.min.js
